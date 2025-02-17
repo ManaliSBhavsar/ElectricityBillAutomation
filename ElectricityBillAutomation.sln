@@ -1,0 +1,20 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.3332.249
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{GUID}") = "ElectricityBillAutomation", "ElectricityBillAutomation\ElectricityBillAutomation.csproj", "{PROJECT_GUID}"
+EndProject
+Project("{GUID}") = "ElectricityBillAutomation.Tests", "ElectricityBillAutomation.Tests\ElectricityBillAutomation.Tests.csproj", "{TEST_PROJECT_GUID}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {PROJECT_GUID}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {PROJECT_GUID}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {TEST_PROJECT_GUID}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {TEST_PROJECT_GUID}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    EndGlobalSection
+EndGlobal
